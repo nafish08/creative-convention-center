@@ -114,7 +114,7 @@
     <!-- Main Start -->
     <main>
         <!-- Article Section -->
-        <article class="container">
+        <article class="container my-5">
             <div class="row d-flex align-items-center">
                 <div class="col-lg-6">
                     <img src="images/moment.jpg" class="img-fluid" alt="">
@@ -126,6 +126,16 @@
                         consectetur neque, quos, deserunt eveniet vel?</p>
                     <button class="bg-primary border-0 text-light fw-bold p-2 px-3">Explore our album <i
                             class="fas fa-arrow-right"></i></button>
+                    <!-- Toast -->
+                    <div class="toast show position-absolute end-0 px-3 border-5 border-top-0 border-bottom-0 border-end-0 border-info"
+                        role="alert" aria-live="assertive" aria-atomic="true">
+                        <div class="toast-body">
+                            <i class="fas fa-gift fs-5 text-info"><small class="ms-3 text-dark">50% off on next
+                                    booking</small></i>
+                            <button type="button" class="btn-close position-absolute top-0 end-0 py-2"
+                                data-bs-dismiss="toast" aria-label="Close"></button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </article>
@@ -410,7 +420,7 @@
     <footer class="container-fluid bg-dark">
         <div class="container p-5 d-flex justify-content-between align-items-center">
             <div class="">
-                <p class="text-light">&copy; 2022 | Md. Nafish Sadik. All rights reserved.</p>
+                <p class="text-muted">&copy; 2022 | Md. Nafish Sadik. All rights reserved.</p>
             </div>
             <div class="">
                 <div class="d-flex flex-column gap-2">
@@ -419,7 +429,6 @@
                         <img src="icons/App Store Badge.svg" alt="">
                     </div>
                     <div>
-
                         <img src="icons/artwork.svg" alt="">
                     </div>
                 </div>
