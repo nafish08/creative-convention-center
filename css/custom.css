@@ -5,3 +5,13 @@
 body {
     font-family: 'Poppins', sans-serif;
 }
+
+/* Packages */
+#hot_package{
+    border-radius: 26px;
+}
+#hot_badge{
+    top: 0;
+    right: 0;
+    background-color: #FF4E4E;
+}
