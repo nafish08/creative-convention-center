@@ -7,6 +7,9 @@ body {
 }
 
 /* Packages */
+.text_color{
+    color: #231D4F;
+}
 #hot_package{
     border-radius: 26px;
 }
